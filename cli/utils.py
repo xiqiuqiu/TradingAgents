@@ -148,6 +148,9 @@ def select_shallow_thinking_agent(provider) -> str:
             ("Meta: Llama 4 Scout", "meta-llama/llama-4-scout:free"),
             ("Meta: Llama 3.3 8B Instruct - A lightweight and ultra-fast variant of Llama 3.3 70B", "meta-llama/llama-3.3-8b-instruct:free"),
             ("google/gemini-2.0-flash-exp:free - Gemini Flash 2.0 offers a significantly faster time to first token", "google/gemini-2.0-flash-exp:free"),
+            # 您可在此添加自定义模型 (Add your custom models below)
+            # ("Model Display Name", "provider/model-name"),
+            ("Google: Gemini 3 Flash Preview", "google/gemini-3-flash-preview"),
         ],
         "ollama": [
             ("llama3.1 local", "llama3.1"),
@@ -210,6 +213,9 @@ def select_deep_thinking_agent(provider) -> str:
         "openrouter": [
             ("DeepSeek V3 - a 685B-parameter, mixture-of-experts model", "deepseek/deepseek-chat-v3-0324:free"),
             ("Deepseek - latest iteration of the flagship chat model family from the DeepSeek team.", "deepseek/deepseek-chat-v3-0324:free"),
+            # 您可在此添加自定义模型 (Add your custom models below)
+            # ("Model Display Name", "provider/model-name"),
+            ("openai/gpt-4o-mini", "openai/gpt-4o-mini"),
         ],
         "ollama": [
             ("llama3.1 local", "llama3.1"),
